@@ -1,12 +1,6 @@
 # <p style="text-align: center;">Sex prediction from retinal fundus image using deep learning</p>
 
 
-
->>> According to the investigation, a challenge in the structural component extraction from
-fundus images is the extraction of the retinal vasculature
-
-
-
 ![fundus_image](assets/100_fundus_image.jpg)
 
 
