@@ -1,6 +1,9 @@
 # Sex prediction from retinal fundus image using deep learning
 
 
+![fundus_image](assets/100_fundus_image.jpg)
+
+
 ## The problem
 
 The examination of the optic fundus consists of observing the structures of the posterior segment of the eye (optic nerve head, retina, retinal vessels, and choroid). This exam can diagnose several diseases: ocular hypertension, arteriosclerosis, diabetes, glaucoma, vascular occlusions (both arterial and venous system), nephropathy, and brain tumors, among others.
