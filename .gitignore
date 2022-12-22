@@ -1,4 +1,6 @@
 dat/
+models/inception_v1_159_0.592.h5
+models/mobilenetv2_retina_400_057_v1.h5
 notebooks/.ipynb_checkpoints
 notebooks/Inceptionv3_download_the_new_one_later.ipynb
 .ipynb_checkpoints
