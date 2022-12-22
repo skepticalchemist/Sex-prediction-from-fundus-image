@@ -89,3 +89,19 @@ I ran the calculations using my free tier account in three cloud platforms:
 * [Google Colab](https://colab.research.google.com/)
     * Slower and instable (it can crash during calculations).
 
+
+# How to run this project
+
+* Create a virtual environment of your choice and activate it
+* Clone this repository
+* Install project dependencies:
+ 
+```python
+pip install -r requirements.txt 
+```
+
+You will need GPU power, which you can use on the cloud platforms mentioned above.
+
+## Notes
+
+It didn't matter which architecture I used, which transfer learning model (Xception, InceptionV3, Mobilenet_v2), learning rate, learning rate annealing, number of epochs and batch size, optimizers, image augmentation, and autokeras. The results were always very similar, i.e., the val_accuracy never exceeds 0.5. I spent around 100 hours on GPU experiments on Saturn Cloud, Sagemaker Studio Lab, and Google Colab. I also had some help from the community, but I missed a more experienced one. I found in the literature that some authors got an accuracy greater than 0.9, however, they had access to a bigger dataset. Overall I enjoy the project and the learning process, but I got some frustration for not being able to improve model performance. 
