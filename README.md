@@ -53,37 +53,39 @@ To predict the gender we'll use only normal fundus images. In the case the left 
 
 # Modeling
 
-1. transfer learning
+## Transfer learning
 * Xception
 * InceptionV3
 * MobileNetV2
 
 
-2. model architecture: 3
+## Model architecture: 3
 
 
-3. augmented images
-Using preprocessing layers (image preprocessing and image augmentation) and the the modulo tf.image
+## Augmented images
+Using `preprocessing layers` (image preprocessing and image augmentation) and the the modulo `tf.image`
 
 
-4. adaptable learning rate (LearningRateScheduler)
+## Adaptable learning rate (LearningRateScheduler)
 
-5. Optimizers
+## Optimizers
 * SGD
 * Adam
 * RMSprop
 
 
-6. Autokeras
+## Autokeras
 
-Autokeras is an auto machine learning library that helps finding the best model for a specific data.
+Autokeras is an auto machine learning library that helps finding the best model for a specific data. It's easy to use, but I just tried once for the sake of comparison.
 
 
-7. Cloud Platforms
+## Cloud Platforms
 
 I ran the calculations using my free tier account in three cloud platforms:
 * [Saturn Cloud](https://saturncloud.io/) 
+    * Everything works fine, it's easy to use and it's avaible when you need.
 * [Sagemaker Studio Lab](https://studiolab.sagemaker.aws/)
+    * Everything works fine if you have luck to scape from this message: _There is no runtime available right now. Please change the compute type or try again later._. And, it can crash during calculations.
 * [Google Colab](https://colab.research.google.com/)
-
+    * Slower and instable (it can crash during calculations).
 
