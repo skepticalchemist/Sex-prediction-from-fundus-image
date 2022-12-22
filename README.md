@@ -1,4 +1,4 @@
-# Sex prediction from retinal fundus image using deep learning
+# <p style="text-align: center;">Sex prediction from retinal fundus image using deep learning</p>
 
 
 ![fundus_image](assets/100_fundus_image.jpg)
